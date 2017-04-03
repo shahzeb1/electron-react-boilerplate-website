@@ -1,5 +1,7 @@
 # Electron React Boilerplate Website
 
+![Screenshot Image](screenshot.png)
+
 Built using Google's [Web Starter Kit](https://developers.google.com/web/tools/starter-kit/).
 
 Development:
