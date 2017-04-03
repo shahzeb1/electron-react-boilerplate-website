@@ -1,0 +1,61 @@
+$bg: lightblue;
+$black: black;
+$grey: #2E2E2E;
+$green: #00FFC9;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: $bg;
+}
+
+.container-fluid{
+  background-color: $bg;
+  // Heading:
+  .heading{
+    width: 100%;
+    padding: 30pt;
+  }
+  h1{
+    font-size: 12em;
+    color: $black;
+    small{
+      color: $grey;
+      font-family: 'Playfair Display', serif;
+      font-size: 70pt;
+    }
+    .boilerplate{
+      font-size: 70pt;
+      color: $black;
+    }
+  }
+
+  // Button container
+  .button-container{
+    text-align: center;
+    .btn{
+      border-radius: 4pt;
+      margin: 8pt;
+      text-transform: uppercase;
+      padding-top: 10pt;
+      padding-bottom: 10pt;
+      padding-right: 16pt;
+      padding-left: 16pt;
+      font-family: 'Raleway', sans-serif;
+      border: 3px black solid;
+    }
+    .btn-docs{
+      background: $bg;
+      color: $black;
+    }
+    .btn-docs:hover{
+      background: darken($bg, 5%);
+    }
+    .btn-github{
+      background: $green;
+    }
+    .btn-github:hover{
+      background: darken($green, 5%);
+    }
+  }
+}
